@@ -1,0 +1,23 @@
+<project name="Coldfusion Language Syntax" basedir="." default="help">
+
+  <property environment="env"/>
+
+  <property name="deploy.dir" value="/Applications/ColdFusion2016/cfusion/wwwroot/CFIDE/lang"/>
+
+  <target name="help">
+    <echo>clean</echo>
+    <echo>deploy - copy files to the server directory</echo>
+  </target>
+
+  <target name="clean">
+      <delete dir="${deploy.dir}"/>
+   </target>
+
+  <target name="deploy" depends="clean">
+      <mkdir dir="${deploy.dir}"/>
+      <copy todir="${deploy.dir}">
+      <fileset dir="${basedir}" includes="**/*.cf*,**/*.html"/>
+    </copy>
+  </target>
+
+</project>
