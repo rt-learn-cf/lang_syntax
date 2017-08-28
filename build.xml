@@ -2,11 +2,34 @@
 
   <property environment="env"/>
 
-  <property name="deploy.dir" value="/Applications/ColdFusion2016/cfusion/wwwroot/CFIDE/lang"/>
+  <property name="deploy.dir" value="/Applications/ColdFusion2016/cfusion/wwwroot/lang"/>
+  <property name="web.port" value="8500"/>
+  <property name="web.path" value="http://localhost:${web.port}/lang"/>
 
   <target name="help">
-    <echo>clean</echo>
-    <echo>deploy - copy files to the server directory</echo>
+    <echo>reset or r - delete objects in the target deployment directory</echo>
+    <echo>console or c - open console in the webapps directory</echo>
+    <echo>deploy or d - copy files to the server directory</echo>
+    <echo>browse or b - browse to root url</echo>
+    <echo>finder or f - open finder window on the deployment directory</echo>
+    <echo>Deployment location: ${deploy.dir}</echo>
+  </target>
+
+  <target name="b" depends="browse"/>
+  <target name="d" depends="deploy"/>
+  <target name="f" depends="finder"/>
+  <target name="c" depends="clean"/>
+
+  <target name="browse">
+    <exec executable="open" spawn="yes">
+      <arg line="${web.path}/index.html" />
+    </exec>
+  </target>
+
+  <target name="finder">
+    <exec executable="open" spawn="yes">
+      <arg line="${deploy.dir}" />
+    </exec>
   </target>
 
   <target name="clean">
@@ -19,5 +42,4 @@
       <fileset dir="${basedir}" includes="**/*.cf*,**/*.html"/>
     </copy>
   </target>
-
 </project>

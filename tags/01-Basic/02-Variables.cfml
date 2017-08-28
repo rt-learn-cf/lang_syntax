@@ -33,4 +33,4 @@
 
 
 <!--- Home Link --->
-<cfinclude template="../common/footer.cfml">
+<cfinclude template="../../common/footer.cfml">
