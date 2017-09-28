@@ -5,7 +5,7 @@
 
 <!--- Output variable in the html --->
 <cfoutput>
-  Hello #firstname#.
+  Holla #firstname#.
 </cfoutput>
 <br>
 
@@ -17,7 +17,9 @@
 
 <!--- Check If a variable exists --->
 <cfif IsDefined("firstName")>
-  Hello #firstname#!
+	<cfoutput>
+	  Hello #firstName#.
+	</cfoutput>
 <cfelse>
   Hello stranger!
 </cfif>
@@ -30,6 +32,10 @@
   Body Type: #Session.BodyType#
 </cfoutput>
 <br>
+
+<cfoutput>
+  Test
+</cfoutput>
 
 
 <!--- Home Link --->

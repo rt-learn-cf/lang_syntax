@@ -4,7 +4,7 @@
 
   <property name="deploy.dir" value="/Applications/ColdFusion2016/cfusion/wwwroot/lang"/>
   <property name="web.port" value="8500"/>
-  <property name="web.path" value="http://localhost:${web.port}/lang"/>
+  <property name="web.path" value="http://localhost:${web.port}/lang_app"/>
 
   <target name="help">
     <echo>reset or r - delete objects in the target deployment directory</echo>
