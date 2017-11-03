@@ -1,13 +1,2 @@
-<cfscript>
-  void function main() {
-    var nullVar = null;
-    writeDump(nullVar);
-  }
+<cfoutput>13.1 Empty String is null in CF #IsNull("")#</cfoutput><br>
 
-  main();
-
-</cfscript>
-
-
-<!--- Home Link --->
-<cfinclude template="../common/footer.cfml">

@@ -36,7 +36,3 @@
 <cfoutput>
   Test
 </cfoutput>
-
-
-<!--- Home Link --->
-<cfinclude template="../../common/footer.cfml">

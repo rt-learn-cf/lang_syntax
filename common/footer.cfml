@@ -1,2 +1,3 @@
 <br>
-<a href="../index.html">Back to Home</a>
+<br>
+<a href="/lang_app/index.html">Back to Home</a>
