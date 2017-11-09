@@ -1,0 +1,1724 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"write",
+				"writeLine"
+			],
+			[
+				"cfth",
+				"cfthrow\ttag (cfml)"
+			],
+			[
+				"cftr",
+				"cftry\ttag (cfml)"
+			],
+			[
+				"cfse",
+				"cfset\ttag (cfml)"
+			],
+			[
+				"test_",
+				"TEST_VALID_ACC_NO"
+			],
+			[
+				"test_a",
+				"TEST_ALPHANUM_CRN"
+			],
+			[
+				"acc_n",
+				"acc_name"
+			],
+			[
+				"err_",
+				"ERR_MSG_EXPECTED_EX"
+			],
+			[
+				"err",
+				"ERR_MSG_UNEXPECTED_EX"
+			],
+			[
+				"ERR_",
+				"ERR_MSG_UNEXPECTED_EX"
+			],
+			[
+				"test_va",
+				"TEST_VALID_BSB"
+			],
+			[
+				"test_acc",
+				"TEST_ACC_NAME"
+			],
+			[
+				"test_v",
+				"TEST_VALID_ACC_NO"
+			],
+			[
+				"err_m",
+				"ERR_MSG_UNEXPECTED_EX"
+			],
+			[
+				"TEST_va",
+				"TEST_VALID_ACC_NO"
+			],
+			[
+				"Test_",
+				"TEST_ACC_NAME"
+			],
+			[
+				"TES",
+				"TEST_VALID_ACC_NO"
+			],
+			[
+				"TESt",
+				"TEST_ACC_NO"
+			],
+			[
+				"de",
+				"details"
+			],
+			[
+				"ERR",
+				"ERR_MSG_EXPECTED_EX"
+			],
+			[
+				"acc",
+				"acc_name"
+			],
+			[
+				"acc_",
+				"acc_bsb"
+			],
+			[
+				"acco",
+				"accountNo\targuments"
+			],
+			[
+				"aru",
+				"arguments"
+			],
+			[
+				"validate",
+				"validateCrnAndBankInfo\tthis"
+			],
+			[
+				"has",
+				"hasBankInfo"
+			],
+			[
+				"rais",
+				"raiseException\tthis"
+			],
+			[
+				"vali",
+				"validateAccountNumber\tthis"
+			],
+			[
+				"rai",
+				"raiseException\tthis"
+			],
+			[
+				"wri",
+				"writeOutput\tfn (cfml)"
+			],
+			[
+				"createO",
+				"createObject\tfn (cfml)"
+			],
+			[
+				"account",
+				"accountCrn"
+			],
+			[
+				"Write",
+				"writeLog\tfn (cfml)"
+			],
+			[
+				"cfd",
+				"cfdump\ttag (cfml)"
+			],
+			[
+				"exted",
+				"extendedInfo"
+			],
+			[
+				"isN",
+				"isNumeric\tfn (cfml)"
+			],
+			[
+				"wire",
+				"writeDump\tfn (cfml)"
+			],
+			[
+				"w",
+				"writeDump\tfn (cfml)"
+			],
+			[
+				"el",
+				"elseif\ttag (cfml)"
+			],
+			[
+				"ar",
+				"arguments"
+			],
+			[
+				"He",
+				"HelloComponent"
+			],
+			[
+				"sc",
+				"script\ttag (cfml)"
+			],
+			[
+				"opt",
+				"optgroup"
+			],
+			[
+				"t",
+				"trim\tstring.fn (cfml)"
+			],
+			[
+				"exp",
+				"expected"
+			],
+			[
+				"SET",
+				"setup\tthis"
+			],
+			[
+				"writ",
+				"writeDump\tfn (cfml)"
+			],
+			[
+				"test",
+				"testData"
+			],
+			[
+				"var",
+				"variables"
+			],
+			[
+				"data",
+				"dataSource"
+			],
+			[
+				"sti",
+				"string"
+			],
+			[
+				"with",
+				"without_project_bilbo"
+			],
+			[
+				"stad",
+				"standard_option"
+			],
+			[
+				"Date",
+				"dateDiff\tfn (cfml)"
+			],
+			[
+				"selec",
+				"SELECTED"
+			],
+			[
+				"nu",
+				"nullValue\tfn (cfml)"
+			],
+			[
+				"grou",
+				"groupName"
+			],
+			[
+				"cfsc",
+				"cfscript\ttag (cfml)"
+			],
+			[
+				"cfs",
+				"cfscript\ttag (cfml)"
+			],
+			[
+				"cf",
+				"cfoutput"
+			],
+			[
+				"cflo",
+				"cfloop\ttag (cfml)"
+			],
+			[
+				"doc",
+				"doc_method"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"del",
+				"delivery_option"
+			],
+			[
+				"sat",
+				"standard_delivery"
+			],
+			[
+				"standard",
+				"standard_delivery"
+			],
+			[
+				"quo",
+				"quote_id"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"option",
+				"options"
+			],
+			[
+				"act",
+				"active_options"
+			],
+			[
+				"an",
+				"any_args"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"rede",
+				"redeem"
+			],
+			[
+				"any",
+				"anything"
+			],
+			[
+				"re",
+				"receive"
+			],
+			[
+				"Voucher",
+				"VoucherInteractor"
+			],
+			[
+				"la",
+				"largest"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"ct",
+				"cta1"
+			],
+			[
+				"size",
+				"size_gb"
+			],
+			[
+				"ma",
+				"max\tmax { |a, b| .. }"
+			],
+			[
+				"unl",
+				"unlimited"
+			],
+			[
+				"basic_phone_with_",
+				"basic_phone_with_ult_100MB"
+			],
+			[
+				"ph",
+				"basic_phone_with_ult_100MB"
+			],
+			[
+				"bil",
+				"billing_type"
+			],
+			[
+				"bi",
+				"billing_type"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"pr",
+				"price"
+			],
+			[
+				"ups",
+				"upsell_product"
+			],
+			[
+				"to_s",
+				"to_sym"
+			],
+			[
+				"prou",
+				"product"
+			],
+			[
+				"pro",
+				"product"
+			],
+			[
+				"com",
+				"computed_param"
+			],
+			[
+				"cons",
+				"construct"
+			],
+			[
+				"const",
+				"construct"
+			],
+			[
+				"aci",
+				"active_voice_plan"
+			],
+			[
+				"ac",
+				"active_voice_plan"
+			],
+			[
+				"co",
+				"context"
+			],
+			[
+				"des",
+				"described_class"
+			],
+			[
+				"plan",
+				"plan_info"
+			],
+			[
+				"Lis",
+				"listAppend\tfn (cfml)"
+			],
+			[
+				"phone",
+				"phoneid"
+			],
+			[
+				"cre",
+				"credit_balance"
+			],
+			[
+				"e",
+				"enable"
+			],
+			[
+				"vou",
+				"voucher_number"
+			],
+			[
+				"cache",
+				"cached_object"
+			],
+			[
+				"ca",
+				"cache_key"
+			],
+			[
+				"voucher",
+				"voucher_code"
+			],
+			[
+				"red",
+				"redeem_hash"
+			],
+			[
+				"prod",
+				"product"
+			],
+			[
+				"vouch",
+				"voucher_code"
+			],
+			[
+				"am",
+				"amount_text"
+			],
+			[
+				"desc",
+				"described_instance"
+			],
+			[
+				"options",
+				"options_hash"
+			],
+			[
+				"pa",
+				"page_title"
+			],
+			[
+				"un",
+				"unlimited_voice"
+			],
+			[
+				"ex",
+				"expiry"
+			],
+			[
+				"UN",
+				"unknown"
+			],
+			[
+				"amou",
+				"amount"
+			],
+			[
+				"is",
+				"is_expected"
+			],
+			[
+				"ce",
+				"current_product"
+			],
+			[
+				"b",
+				"build"
+			],
+			[
+				"cur",
+				"current_voice_plan"
+			],
+			[
+				"P",
+				"product"
+			],
+			[
+				"se",
+				"send"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"cont",
+				"controller"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scripts/05-Operators.cfml",
+			"settings":
+			{
+				"buffer_size": 492,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "build.sh",
+			"settings":
+			{
+				"buffer_size": 324,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/royceremulla/Dropbox (Personal)/Sublime/User/lang_app_cfml.sublime-build",
+			"settings":
+			{
+				"buffer_size": 370,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/CFML/build/CFML.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/CFML/build/CFML.sublime-build",
+					""
+				],
+				[
+					"Packages/CFML/build/CFML.sublime-build",
+					"TestBox: Run Project Tests"
+				],
+				[
+					"Packages/CFML/build/CFML.sublime-build",
+					"TestBox: Run Directory Tests"
+				],
+				[
+					"Packages/CFML/build/CFML.sublime-build",
+					"TestBox: Run Tests"
+				]
+			],
+			[
+				"Packages/CFML/build/CFML.sublime-build",
+				"TestBox: Run Tests"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Ruby/Ruby.sublime-build",
+					""
+				],
+				[
+					"Packages/User/ant_deploy.sublime-build",
+					""
+				],
+				[
+					"Packages/User/ant_deploy2.sublime-build",
+					""
+				],
+				[
+					"Packages/User/rubocop.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Ruby/Ruby.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "TestBox: Run Tests",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "packag",
+		"selected_items":
+		[
+			[
+				"packag",
+				"Package Control: Enable Package"
+			],
+			[
+				"pac",
+				"Package Control: Enable Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"C",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"Colo",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 447.0
+	},
+	"console":
+	{
+		"height": 376.0,
+		"history":
+		[
+			"clear",
+			"gem pristine rainbow --version 2.2.2"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/scripts"
+	],
+	"file_history":
+	[
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/build.sh",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/scripts/06-Strings.cfml",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/common/CommonUtil.cfm",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/tags/01-Basic/06-Lists.cfml",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/index.html",
+		"/Users/royceremulla/Dropbox (Personal)/Sublime/User/lang_app_cfml.sublime-build",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/Application.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_tests/unit/owi/webservices_sec/AccountDetailsValidatorTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/owi/webservices_sec/AccountDetailsValidator.cfc",
+		"/Users/royceremulla/projects/mobile-bss/owi/webservices_sec/func_addClientOrder.cfm",
+		"/Users/royceremulla/projects/mobile-bss/owi/webservices_sec/func_addPhoneOrder.cfm",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/scripts/04-Data-Types.cfml",
+		"/Users/royceremulla/projects/mobile-bss/owi/webservices_sec/inc_validation_payment.cfc",
+		"/Users/royceremulla/projects/mobile-bss/owi/webservices_sec/ecgw_compass.cfc",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/common/footer2.cfml",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/common/exception.cfm",
+		"/Users/royceremulla/Library/Application Support/Sublime Text 3/Packages/User/cfml.sublime-build",
+		"/Users/royceremulla/Dropbox (Personal)/Sublime/User/Ruby Custom.sublime-build",
+		"/Users/royceremulla/Dropbox (Personal)/Sublime/User/ant_deploy2.sublime-build",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/scripts/03-Regular_Expressions.cfml",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/tags/01-Basic/02-Variables.cfml",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/Guardfile",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/README.md",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/tags/01-Basic/13-DataTypes.cfml",
+		"/Users/royceremulla/projects/mobile-bss/owi/webservices_sec/inc_cfcatch.cfm",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/tags/01-Basic/01-Include.cfml",
+		"/Users/royceremulla/projects/mobile-bss/cdr_processing/UsageMessage.cfc",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/tags/02-Components/components/Customer.cfc",
+		"/Users/royceremulla/projects/mobile-bss/billing/PdfParts.cfc",
+		"/Users/royceremulla/projects/mobile-bss/cdr_processing/MessageRules.cfc",
+		"/Users/royceremulla/projects/mobile-bss/owi/webservices_sec/ecgw2_compass.cfc",
+		"/Users/royceremulla/projects/mobile-bss/owi/webservices/ecgw2_compass.cfc",
+		"/Users/royceremulla/projects/mobile-bss/owi/webservices_sec/elitegroups/func_addClientOrder.cfm",
+		"/Users/royceremulla/projects/mobile-bss/clientidentities-replaced-by-dvs.cfm",
+		"/Users/royceremulla/projects/mobile-bss/client_addresses.cfm",
+		"/Users/royceremulla/projects/mobile-bss/optusSMS/sms_gateway_worker/core.cfc",
+		"/Users/royceremulla/projects/mobile-bss/ethan/business/services/ccdataservice.cfc",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/tags/01-Basic/header.cfm",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/common/header.cfm",
+		"/Users/royceremulla/projects/mobile-bss/cba/Application.cfm",
+		"/Users/royceremulla/projects/mobile-bss/optusSMS/ecgw_compass.cfc",
+		"/Users/royceremulla/projects/my-amaysim/spec/models/my_amaysim2/balance_spec.rb",
+		"/Users/royceremulla/projects/my-amaysim/app/views/my_amaysim2/dashboards/_data_pack.html.haml",
+		"/Users/royceremulla/projects/my-amaysim/app/models/my_amaysim2/data_balance.rb",
+		"/Users/royceremulla/projects/my-amaysim/app/models/my_amaysim2/balance.rb",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/common/footer.cfml",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/tags/01-Basic/14-Operators.cfml",
+		"/Users/royceremulla/projects/mobile-bss/SessionTracker.cfm",
+		"/Users/royceremulla/projects/my-amaysim/spec/views/my_amaysim2/dashboards/_data_pack.html.haml_spec.rb",
+		"/Users/royceremulla/projects/mobile-bss/owi/business/NewPaymentMethod.cfc",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/scripts/05-Operators.cfml",
+		"/Users/royceremulla/projects/mobile-bss/_testing/cf-client/coverage-statistics.cfm",
+		"/Users/royceremulla/projects/mobile-bss/_tests/unit/owi/business/NewPaymentMethodTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_testing/cf-client/coverage-check.cfm",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/tags/03-Advanced/CFCInvoker.java",
+		"/Users/royceremulla/projects/mobile-bss/_integrationtests/helpers/PhoneSetup.cfc",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/tags/02-Components/components/component.cfc",
+		"/Users/royceremulla/projects/mobile-bss/owi/inc_connect_process_partition.cfm",
+		"/Users/royceremulla/projects/mobile-bss/_tests/integration/_done/MonetaryVoucherProductsRedemptionListTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/Application.cfc",
+		"/Users/royceremulla/projects/mobile-bss/inc_app_functions.cfm",
+		"/Users/royceremulla/projects/mobile-bss/settings/appcfc-onApplicationStart.cfm",
+		"/Users/royceremulla/projects/mobile-bss/_tests/integration/_done/GetClientDetailsTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/ajaxproxy.cfc",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/tags/03-Advanced/03-01-Java-Integration.cfml",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/scripts/01-ServerSide-Function.cfml",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/tags/03-Advanced/DataGetterComponent.cfc",
+		"/Users/royceremulla/projects/mobile-bss/ecbill.cfm",
+		"/Users/royceremulla/projects/mobile-bss/manage_blacklist.cfm",
+		"/Users/royceremulla/projects/mobile-bss/TrueFalseFormat.cfm",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/tags/01-Basic/15-InputOutput.cfml",
+		"/Users/royceremulla/projects/mobile-bss/_tests/unit/promocodes/views/HtmlHelperTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_tests/integration/_done/CheckSimTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/generalFunctions.cfc",
+		"/Users/royceremulla/projects/mobile-bss/owi/webservices_sec/inc_validation_payment.cfm",
+		"/Users/royceremulla/projects/mobile-bss/itemisation_pdf.cfm",
+		"/Users/royceremulla/projects/mobile-bss/promocodes/views/HtmlHelper.cfc",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/scripts/components/04-Data-Types.cfc",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/scripts/components/03-Regular_Expressions.cfml",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/scripts/components/HelloComponent.cfc",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/scripts/02-Components.cfml",
+		"/Applications/ColdFusion2016/cfusion/wwwroot/lang_app/scripts/02-Component.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_tests/unit/authorisedRepresentative/DBClientHandlerTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/promocodes/views/view_codes.cfm",
+		"/Users/royceremulla/projects/mobile-bss/manage.cfm",
+		"/Users/royceremulla/projects/mobile-bss/promocodes/views/add_code.cfm",
+		"/Users/royceremulla/projects/mobile-bss/accounts.cfm",
+		"/Users/royceremulla/projects/mobile-bss/_integrationtests/spec/calcOwiMessagesTests.cfc",
+		"/Users/royceremulla/projects/my-amaysim/app/models/my_amaysim2/product.rb",
+		"/Users/royceremulla/projects/my-amaysim/app/views/my_amaysim2/products/generals/_usage_details.html.haml",
+		"/Users/royceremulla/projects/mobile-bss/_tests/unit/owi/business/services/identityProvider/IdentityProviderTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/authorisedRepresentative/DBClientHandler.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_tests/integration/_done/AutoTopupTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/owi/business/services/AutoTopup.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_tests/unit/owi/business/services/broadband/ClientTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_tests/unit/owi/business/services/DataBalanceTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_testing/bolt_testharness/boltharness.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_testing/bolt_testharness/billing.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_integrationtests/Application.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_tests/unit/queues/queueAdminTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/scripts/query_execute.cfm",
+		"/Users/royceremulla/projects/mobile-bss/owi/business/ProductCodes.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_tests/Application.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_tests/integration/_broken/EP2GatewayRoutingTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/promocodes/views/.cflintrc",
+		"/Users/royceremulla/projects/mobile-bss/authorisedRepresentative/Config.cfc",
+		"/Users/royceremulla/projects/mobile-bss/.cflintrc",
+		"/Users/royceremulla/projects/mobile-bss/authorisedRepresentative/AuthorisedRepresentative.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_integrationtests/spec/ProvisionTests.cfc",
+		"/Users/royceremulla/projects/mobile-bss/owi/business/services/identityProvider/IdentityProvider.cfc",
+		"/Users/royceremulla/projects/my-amaysim/lib/ws_proxy.rb",
+		"/Users/royceremulla/projects/my-amaysim/config/config_product.yml",
+		"/Users/royceremulla/projects/my-amaysim/config/locales/en.yml",
+		"/Users/royceremulla/projects/my-amaysim/app/models/my_amaysim2/system_message.rb",
+		"/Users/royceremulla/projects/my-amaysim/app/models/my_amaysim2/system_message_data_stop.rb",
+		"/Users/royceremulla/projects/my-amaysim/spec/services/address_verification_service_spec.rb",
+		"/Users/royceremulla/projects/my-amaysim/app/services/address_verification_service.rb",
+		"/Users/royceremulla/projects/my-amaysim/meta.json",
+		"/Users/royceremulla/projects/my-amaysim/app/models/my_amaysim2/express_delivery.rb",
+		"/Users/royceremulla/projects/mobile-bss/_tests/integration/_done/VerifyIdTest.cfc",
+		"/Users/royceremulla/projects/mobile-bss/_tests/unit/promocodes/views/promo_code_options_test.cfc",
+		"/Users/royceremulla/projects/mobile-bss/queues/QueueAdmin.cfc",
+		"/Users/royceremulla/projects/mobile-bss/promocodes/views/edit_code_group.cfm",
+		"/Users/royceremulla/projects/my-amaysim/app/helpers/order_transactions_promo_voucher_helper.rb",
+		"/Users/royceremulla/projects/my-amaysim/app/views/order_transactions/shopping_cart/_cart.html.haml",
+		"/Users/royceremulla/projects/my-amaysim/spec/helpers/order_transactions_promo_voucher_helper_spec.rb",
+		"/Users/royceremulla/projects/my-amaysim/config/feature_control.yml",
+		"/Users/royceremulla/projects/my-amaysim/spec/spec_helper.rb"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+			"-*.log*, *.cf*",
+			"-*.log*, *.cf?",
+			"-*.log*",
+			"",
+			"*.cf?",
+			"",
+			"/Users/royceremulla/projects/mobile-bss/_tests",
+			"",
+			"/Users/royceremulla/projects/mobile-bss/, *.cfc",
+			"/Users/royceremulla/projects/mobile-bss/",
+			"/Users/royceremulla/projects/mobile-bss/_tests"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\.\\/((?:tags|scripts)\\/(?:.*\\/)*(\\d{2}-.*\\.cf.{1,2}))",
+			"\\.\\/((?:tags|scripts)\\/(?:.*\\/)*(\\d{2}-.*)\\.cf.{1,2})",
+			"\\.\\/((?:tags|scripts)\\/(?:.*\\/)*(\\d{2}-.*\\.cf.{1,2}))",
+			"\\.\\/(tags\\/.*\\/.*\\.cf*",
+			"Empty Str",
+			"message",
+			"func_add(?:Client|Phone)Order",
+			"addClientOrder",
+			"func_addClient",
+			"func_addPhone",
+			"cftry",
+			"func_addClient",
+			"cffunction name=\"init\"",
+			"init",
+			"cfapplication",
+			"message",
+			"func_addPhoneOrder",
+			"message",
+			"<cfset message=",
+			"message",
+			"crn",
+			"func_addPhoneOrder.cfm",
+			"cfapplication",
+			"session",
+			"abcd1",
+			"validateAccountDetails",
+			"inc_validation_payment",
+			"ERROR_TYPE_INPUT",
+			"ERR_MSG_BOTH_CRN_AND_ACCT_INFO",
+			"inc_validation_payment",
+			"<cfargument name=\"acc_crn\"",
+			"bsb",
+			"peter",
+			"inc_validation_payment",
+			"extendedinfo",
+			"cfargument name=\"acc_crn\"",
+			"crn",
+			"<cfcomponent displayname=",
+			"ecgateway.owi.webservices_sec.ecgw_compass",
+			"new ecgateway.owi.webservices_sec.",
+			"inc_validation_payment",
+			"new ecgateway.owi.webservices_sec",
+			"func_addClientOrder",
+			"inc_validation_payment",
+			"cfargument",
+			"returntype",
+			"Map",
+			"cfobject action",
+			"cfobject action=\"create\" type=\"java\"",
+			"back",
+			"lib",
+			"productCodes",
+			"ProductCode",
+			"assert",
+			"acc_name",
+			"acc_bsb",
+			"acc_no",
+			"acctCrn",
+			"generalFunctions",
+			"objGeneralFunctions",
+			"formatCallData",
+			"<cfcomponent",
+			"component",
+			"ajaxproxy.cfc",
+			"ajaxproxy",
+			"\"component\"",
+			"cc_transaction_id",
+			"bool",
+			"func_addClientOrder",
+			"crn",
+			"\\belseif\\b",
+			"StringUtil",
+			"isEmpty",
+			" EQ ",
+			" AND ",
+			" OR ",
+			"NEQ",
+			"NewPaymentMethod",
+			"extendedinfo",
+			"ec",
+			"required",
+			"optional",
+			"clientUpdateNotifier",
+			" = new ",
+			"cfinclude template",
+			"cflint",
+			"all",
+			"assertEqual",
+			"queryAddRow",
+			"mxunit",
+			"prepareGetData",
+			"returnQueryResult",
+			"request.testData",
+			"len(",
+			"query_execute",
+			"null",
+			"NULLVALUE",
+			"testData",
+			"description",
+			"returnQueryResult",
+			"QueryAdd",
+			"ecgateway.Application",
+			"compass",
+			"VAR_TOO_SHORT",
+			"function init\\(",
+			"function init",
+			"component",
+			"cfscript",
+			"hint",
+			"hint\\.",
+			"hint",
+			"function init",
+			"new.*\\(\\w",
+			"new ",
+			"query",
+			"QueryAdd"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"<li><a href=\"\\1\">\\2</a></li>",
+			"accountName",
+			"accountBsb",
+			"accountNo",
+			"accountCrn",
+			" == ",
+			" && ",
+			" || ",
+			"!="
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scripts/05-Operators.cfml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								492,
+								492
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"markdonw_live_preview_last_run": 1509838511.84,
+							"syntax": "Packages/CFML/syntaxes/cfml.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "build.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								324,
+								324
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"markdonw_live_preview_last_run": 1509848022.77,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "/Users/royceremulla/Dropbox (Personal)/Sublime/User/lang_app_cfml.sublime-build",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 370,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								291,
+								291
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": false,
+							"markdonw_live_preview_last_run": 1509839100.0,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.46981005598,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 240.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 96.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/lang_app_cfml.sublime-build",
+	"project": "cflang.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"commonuti",
+				"lang_app/common/CommonUtil.cfm"
+			],
+			[
+				"applic",
+				"lang_app/Application.cfc"
+			],
+			[
+				"index.",
+				"lang_app/index.html"
+			],
+			[
+				"read",
+				"lang_app/README.md"
+			],
+			[
+				"application.",
+				"lang_app/Application.cfc"
+			],
+			[
+				"inde",
+				"lang_app/index.html"
+			],
+			[
+				"data-",
+				"lang_app/scripts/04-Data-Types.cfml"
+			],
+			[
+				"guard",
+				"lang_app/Guardfile"
+			],
+			[
+				"guar",
+				"lang_app/Guardfile"
+			],
+			[
+				"regular",
+				"lang_app/scripts/03-Regular_Expressions.cfml"
+			],
+			[
+				"applica",
+				"lang_app/Application.cfc"
+			],
+			[
+				"regul",
+				"lang_app/scripts/03-Regular_Expressions.cfml"
+			],
+			[
+				"03-r",
+				"lang_app/scripts/03-Regular_Expressions.cfml"
+			],
+			[
+				"excep",
+				"lang_app/common/exception.cfm"
+			],
+			[
+				"footer",
+				"lang_app/common/footer2.cfml"
+			],
+			[
+				"inc_cfcatch.cfm",
+				"mobile-bss/owi/webservices_sec/inc_cfcatch.cfm"
+			],
+			[
+				"func_addclie",
+				"mobile-bss/owi/webservices_sec/func_addClientOrder.cfm"
+			],
+			[
+				"func_addcli",
+				"mobile-bss/owi/webservices_sec/elitegroups/func_addClientOrder.cfm"
+			],
+			[
+				"inc_va",
+				"mobile-bss/owi/webservices_sec/inc_validation_payment.cfc"
+			],
+			[
+				"ecgw",
+				"mobile-bss/owi/webservices_sec/ecgw_compass.cfc"
+			],
+			[
+				"exception",
+				"lang_app/common/exception.cfm"
+			],
+			[
+				"include",
+				"lang_app/tags/01-Basic/01-Include.cfml"
+			],
+			[
+				"datatyp",
+				"lang_app/tags/01-Basic/13-DataTypes.cfml"
+			],
+			[
+				"appli",
+				"lang_app/Application.cfc"
+			],
+			[
+				"spec/views/my_amaysim2/dashboards/_data_pack.html.haml_spec.rb",
+				"my-amaysim/spec/views/my_amaysim2/dashboards/_data_pack.html.haml_spec.rb"
+			],
+			[
+				"spec/models/my_amaysim2/balance_spec.rb",
+				"my-amaysim/spec/models/my_amaysim2/balance_spec.rb"
+			],
+			[
+				"app/views/my_amaysim2/dashboards/_data_pack.html.haml",
+				"my-amaysim/app/views/my_amaysim2/dashboards/_data_pack.html.haml"
+			],
+			[
+				"app/models/my_amaysim2/data_balance.rb",
+				"my-amaysim/app/models/my_amaysim2/data_balance.rb"
+			],
+			[
+				"app/models/my_amaysim2/balance.rb",
+				"my-amaysim/app/models/my_amaysim2/balance.rb"
+			],
+			[
+				"accountde",
+				"mobile-bss/owi/webservices_sec/AccountDetailsValidator.cfc"
+			],
+			[
+				"newpay",
+				"mobile-bss/owi/business/NewPaymentMethod.cfc"
+			],
+			[
+				"covera",
+				"mobile-bss/_testing/cf-client/coverage-statistics.cfm"
+			],
+			[
+				"cove",
+				"mobile-bss/_testing/cf-client/coverage-check.cfm"
+			],
+			[
+				"opera",
+				"lang_app/tags/01-Basic/14-Operators.cfml"
+			],
+			[
+				"newpa",
+				"mobile-bss/_tests/unit/owi/business/NewPaymentMethodTest.cfc"
+			],
+			[
+				"newmethod",
+				"mobile-bss/owi/business/NewPaymentMethod.cfc"
+			],
+			[
+				"data-t",
+				"lang_app/scripts/04-Data-Types.cfml"
+			],
+			[
+				"cfci",
+				"lang_app/tags/03-Advanced/CFCInvoker.java"
+			],
+			[
+				"inc_app_functions.cfm",
+				"mobile-bss/inc_app_functions.cfm"
+			],
+			[
+				"appcfc-onapplicationstart.cfm",
+				"mobile-bss/settings/appcfc-onApplicationStart.cfm"
+			],
+			[
+				"accountva",
+				"mobile-bss/owi/webservices_sec/AccountDetailsValidator.cfc"
+			],
+			[
+				"newpaymentmethod",
+				"mobile-bss/owi/business/NewPaymentMethod.cfc"
+			],
+			[
+				"inc_payment",
+				"mobile-bss/owi/webservices_sec/inc_validation_payment.cfm"
+			],
+			[
+				"accountval",
+				"mobile-bss/_tests/unit/owi/webservices_sec/AccountDetailsValidatorTest.cfc"
+			],
+			[
+				"accountdetia",
+				"mobile-bss/owi/webservices_sec/AccountDetailsValidator.cfc"
+			],
+			[
+				"application.cf",
+				"lang_app/Application.cfc"
+			],
+			[
+				"footer.cfml",
+				"lang_app/common/footer.cfml"
+			],
+			[
+				"application",
+				"lang_app/Application.cfc"
+			],
+			[
+				"cf.",
+				"lang_app/tags/01-Basic/cf.cfm"
+			],
+			[
+				"14-",
+				"lang_app/tags/01-Basic/14-Operators.cfml"
+			],
+			[
+				"htmlte",
+				"mobile-bss/_tests/unit/promocodes/views/HtmlHelperTest.cfc"
+			],
+			[
+				"htmlhel",
+				"mobile-bss/_tests/unit/promocodes/views/HtmlHelperTest.cfc"
+			],
+			[
+				"newp",
+				"mobile-bss/owi/business/NewPaymentMethod.cfc"
+			],
+			[
+				"ajaxproxy",
+				"mobile-bss/ajaxproxy.cfc"
+			],
+			[
+				"htmlhe",
+				"mobile-bss/_tests/unit/promocodes/views/HtmlHelperTest.cfc"
+			],
+			[
+				"hello",
+				"lang_app/scripts/components/HelloComponent.cfc"
+			],
+			[
+				"helloc",
+				"lang_app/scripts/components/HelloComponent.cfc"
+			],
+			[
+				"",
+				"mobile-bss/owi/business/NewPaymentMethod.cfc"
+			],
+			[
+				"owi/webservices_sec/paymentvalidator.cfc",
+				"mobile-bss/owi/webservices_sec/PaymentValidator.cfc"
+			],
+			[
+				"htmlh",
+				"mobile-bss/promocodes/views/HtmlHelper.cfc"
+			],
+			[
+				"owi/webservices_sec/func_addphoneorder.cfm",
+				"owi/webservices_sec/func_addPhoneOrder.cfm"
+			],
+			[
+				"inc_validation_payment.cfm",
+				"owi/webservices_sec/inc_validation_payment.cfm"
+			],
+			[
+				"add_co",
+				"promocodes/views/add_code.cfm"
+			],
+			[
+				"query_execute",
+				"scripts/query_execute.cfm"
+			],
+			[
+				"produce",
+				"owi/business/ProductCodes.cfc"
+			],
+			[
+				".cf",
+				".cflintrc"
+			],
+			[
+				"autotopup",
+				"owi/business/services/AutoTopup.cfc"
+			],
+			[
+				"promo_code",
+				"promocodes/views/promo_code_options.cfm"
+			],
+			[
+				"identityprovider",
+				"owi/business/services/identityProvider/IdentityProvider.cfc"
+			],
+			[
+				".",
+				".cflintrc"
+			],
+			[
+				"promo",
+				"_tests/unit/promocodes/views/PromoCodeOptionsTest.cfc"
+			],
+			[
+				"lib/ws_proxy.rb",
+				"my-amaysim/lib/ws_proxy.rb"
+			],
+			[
+				"app/views/my_amaysim2/products/generals/_usage_details.html.ham",
+				"my-amaysim/app/views/my_amaysim2/products/generals/_usage_details.html.haml"
+			],
+			[
+				"promoco",
+				"_tests/unit/promocodes/views/PromoCodeOptionsTest.cfc"
+			],
+			[
+				"config",
+				"my-amaysim/config/config_product.yml"
+			],
+			[
+				"en.",
+				"my-amaysim/config/locales/en.yml"
+			],
+			[
+				"product",
+				"my-amaysim/app/models/my_amaysim2/product.rb"
+			],
+			[
+				"address_verification_service",
+				"app/services/address_verification_service.rb"
+			],
+			[
+				"address_verifi",
+				"spec/services/address_verification_service_spec.rb"
+			],
+			[
+				"address_ver",
+				"spec/services/address_verification_service_spec.rb"
+			],
+			[
+				"order_transactions_promo_voucher_helper_spec.rb",
+				"my-amaysim/spec/helpers/order_transactions_promo_voucher_helper_spec.rb"
+			],
+			[
+				"app/helpers/order_transactions_promo_voucher_helper.rb",
+				"my-amaysim/app/helpers/order_transactions_promo_voucher_helper.rb"
+			],
+			[
+				"feature_control.yml",
+				"my-amaysim/config/feature_control.yml"
+			],
+			[
+				"address_",
+				"my-amaysim/spec/services/address_verification_service_spec.rb"
+			],
+			[
+				"address_s",
+				"my-amaysim/app/services/address_verification_service.rb"
+			],
+			[
+				"cart",
+				"my-amaysim/app/views/order_transactions/shopping_cart/_cart.html.haml"
+			],
+			[
+				"address_v",
+				"my-amaysim/app/services/address_verification_service.rb"
+			],
+			[
+				"address_ve",
+				"my-amaysim/app/services/address_verification_service.rb"
+			],
+			[
+				"confi",
+				"my-amaysim/config/config.yml"
+			],
+			[
+				"order_transactions_promo",
+				"my-amaysim/spec/helpers/order_transactions_promo_voucher_helper_spec.rb"
+			],
+			[
+				"product.rb",
+				"my-amaysim/app/models/my_amaysim2/product.rb"
+			],
+			[
+				"order_transactions_promo_voucher_helper.rb",
+				"my-amaysim/app/helpers/order_transactions_promo_voucher_helper.rb"
+			],
+			[
+				"queueadmin",
+				"queues/QueueAdmin.cfc"
+			],
+			[
+				"application.lo",
+				"log/coldfusion/application.log"
+			],
+			[
+				"queryrunner",
+				"utils/gateway/QueryRunner.cfc"
+			],
+			[
+				"componentutils",
+				"queues/www/bower_components/tether/src/js/utils.js"
+			],
+			[
+				"application.log",
+				"log/coldfusion/application.log"
+			],
+			[
+				"application.l",
+				"log/coldfusion/application.log"
+			],
+			[
+				"configtest",
+				"_tests/unit/optusSMS/sms_gateway_worker/configTest.cfc"
+			],
+			[
+				"dbclient",
+				"_tests/unit/authorisedRepresentative/DBClientHandlerTest.cfc"
+			],
+			[
+				"db",
+				"authorisedRepresentative/DBClientHandler.cfc"
+			],
+			[
+				"query",
+				"scripts/query_execute.cfm"
+			],
+			[
+				"options",
+				"promocodes/views/promo_code_options.cfm"
+			],
+			[
+				"standardmock",
+				"_unittests/mocks/StandardMock.cfc"
+			],
+			[
+				"query_execute.cfm",
+				"mobile-bss/scripts/query_execute.cfm"
+			],
+			[
+				"test",
+				"mobile-bss/promocodes/views/test.cfm"
+			],
+			[
+				"manage_promotio",
+				"mobile-bss/manage_promotions.cfm"
+			],
+			[
+				"manage",
+				"mobile-bss/manage_promocodes.cfm"
+			],
+			[
+				"manage_cod",
+				"mobile-bss/manage_promocodes.cfm"
+			],
+			[
+				"test.cfm",
+				"mobile-bss/promocodes/views/test.cfm"
+			],
+			[
+				"view_code",
+				"mobile-bss/promocodes/views/view_codes.cfm"
+			],
+			[
+				"test.c",
+				"promocodes/views/test.cfm"
+			],
+			[
+				"en",
+				"config/locales/en.yml"
+			],
+			[
+				"con",
+				"config/config.yml"
+			],
+			[
+				"ama_stan",
+				"lib/ama_standard_format.rb"
+			],
+			[
+				"delive",
+				"app/views/order_transactions/_delivery_options.html.erb"
+			],
+			[
+				"order_t",
+				"app/controllers/order_transactions_controller.rb"
+			],
+			[
+				"sims_controller",
+				"app/controllers/my_amaysim2/sims_controller.rb"
+			],
+			[
+				"sims",
+				"app/controllers/sims_controller.rb"
+			],
+			[
+				"swap",
+				"app/assets/javascripts/desktop/myamaysim_sim_swap.js"
+			],
+			[
+				"view_codes.cfm",
+				"promocodes/views/view_codes.cfm"
+			],
+			[
+				"manage_promocodes.cfm",
+				"manage_promocodes.cfm"
+			],
+			[
+				"eslin",
+				".eslintrc.yml"
+			],
+			[
+				"funnel",
+				"app/assets/javascripts/funnel/funnel.js"
+			],
+			[
+				"eslint",
+				".eslintrc.yml"
+			],
+			[
+				"order_transaction_v",
+				"app/helpers/order_transactions_promo_voucher_helper.rb"
+			],
+			[
+				"funnel_shopp",
+				"app/assets/javascripts/funnel/funnel_shopping_cart.js"
+			],
+			[
+				"funnel_payment_page.rb",
+				"spec/support/pages/funnel_payment_page.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

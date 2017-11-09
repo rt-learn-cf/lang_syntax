@@ -44,10 +44,6 @@
 
     <cffunction name="OnRequestStart" access="public" returntype="boolean" output="false" hint="Fires at first part of page processing.">
 
-        <!--- Define arguments. --->
-        <cfargument name="TargetPage" type="string" required="true" />
-
-
         <!--- Return out. --->
         <cfreturn true />
 

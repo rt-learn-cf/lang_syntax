@@ -19,11 +19,4 @@
     result_2_2 = 0 && 3;
     writeLine("2.2.  0 && 3 is #result_2_2#"); // 0
 
-
-
-
-    private function writeLine(string message = "") {
-        writeDump(message);
-        writeOutput("<br>");
-    }
 </cfscript>

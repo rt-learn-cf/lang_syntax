@@ -1,2 +1,2 @@
-<cfoutput>13.1 Empty String is null in CF #IsNull("")#</cfoutput><br>
+<cfoutput>13.1 Empty String is <code>null</code> in CF #IsNull("")#</cfoutput><br>
 

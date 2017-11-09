@@ -27,12 +27,13 @@
 
 
 <!--- Scoping a variable --->
-<cfset Session.BodyType = "Perfect">
+<!--- <cfset Session.BodyType = "Perfect">
 <cfoutput>
   Body Type: #Session.BodyType#
 </cfoutput>
-<br>
+ ---><br>
 
 <cfoutput>
-  Test
+  Test 1
 </cfoutput>
+
