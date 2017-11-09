@@ -52,9 +52,3 @@ and replace with:
 ```
 <li><a href="\1">\2</a></li>
 ```
-
-
-
-## Issues
-
-- Fix the linking due to recent refactoring of the file structure.
