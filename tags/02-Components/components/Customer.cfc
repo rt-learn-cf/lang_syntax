@@ -1,18 +1,24 @@
-<cfcomponent displayname="Customer" hint="ColdFusion Component for Customers">
+<cfcomponent displayname="Customer" hint="ColdFusion Component for Customers" accessors="true">
 
-<cffunction name="init">
+<cfproperty name="name" type="String" default="Property" />
+
+<cffunction name="init" output="false" returntype="Customer" hint="This serves as a constructor.">
 	<cfargument name="name" type="string" default="Guest" hint="Initialize with the name of the customer.">
+    <cfset this.name |= arguments.name />
 
-	<cfse
-
+	<cfoutput>Class initialization (#this.name#)<br></cfoutput>
+    <cfreturn this />
 </cffunction>
 
- <!--- This function retrieves all customers from the database --->
- <cffunction name="retrieveCustomers"
-  hint="Gets all customer from the database" returntype="query">
-   <cfquery name="getCustomers" datasource="#application.dsn#">
-   SELECT 1 FROM Customers
-   </cfquery>
-   <cfreturn getCustomers>
- </cffunction>
+<cffunction name="getName"
+  hint="Returns the customer name"
+  returntype="String" output="false">
+
+  <cfif !isDefined("this.name")>
+    <cfset this.name = "undefined">
+  </cfif>
+
+  <cfreturn this.name />
+
+  </cffunction>
 </cfcomponent>

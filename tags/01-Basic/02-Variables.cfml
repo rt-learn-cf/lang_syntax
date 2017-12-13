@@ -37,3 +37,9 @@
   Test 1
 </cfoutput>
 
+
+<!--- Get variabse value by name? --->
+<cfoutput>
+    Dynamic variables
+  #variables['firstName']#
+</cfoutput>

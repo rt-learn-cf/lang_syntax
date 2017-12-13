@@ -1,6 +1,8 @@
 <cfcomponent displayname="Application" output="true" hint="Handle the application.">
 
-    <cfinclude template="common/CommonUtil.cfm">
+    <cfif (!StructKeyExists(variables, "writeLine")) >
+        <cfinclude template="common/CommonUtil.cfm">
+    </cfif>
 
     <!--- Set up the application. --->
     <cfset THIS.javaSettings = { LoadPaths = ['/lib'], reloadOnChange =true, loadColdFusionClassPath = true }

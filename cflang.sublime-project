@@ -3,6 +3,12 @@
 	[
 		{
 			"path": "/Users/royceremulla/projects/mobile-bss"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "/Users/royceremulla/projects/learn-bash"
 		}
 	]
 }

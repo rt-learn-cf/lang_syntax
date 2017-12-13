@@ -34,12 +34,5 @@
     writeLine("2.2. Is empty string Numeric? #IsNumeric(EMPTY_STRING)#");
     writeLine("2.3. Is ""0"" Numeric? #IsNumeric(ZERO_STRING)#");
     writeLine("2.4. Len(45) Is? #Len(45)#"); // 2
-
-
-
-    private function writeLine(string message = "") {
-        writeDump(message);
-        writeOutput("<br>");
-    }
-
+    writeLine("2.5. Val('0') == 0 #IsNumeric(val('0'))#");
 </cfscript>
