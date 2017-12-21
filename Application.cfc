@@ -1,7 +1,7 @@
 <cfcomponent displayname="Application" output="true" hint="Handle the application.">
 
     <cfif (!StructKeyExists(variables, "writeLine")) >
-        <cfinclude template="common/CommonUtil.cfm">
+        <cfinclude template="common/CommonUtil.cfc">
     </cfif>
 
     <!--- Set up the application. --->
