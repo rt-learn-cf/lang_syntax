@@ -49,6 +49,7 @@ guard 'livereload' do
 
   # file needing a full reload of the page anyway
   watch(%r{scripts/.*})
+  watch(%r{common/.*})
   watch(%r{tags/.*})
   watch(%r{index\.html})
 end

@@ -1,14 +1,23 @@
 <!--- Set Variable --->
-<cfset firstname="Bono">
-<br>
+1. Set value of a variable
+<cfset firstName1="Bono">
+<br><br>
 
 
-<!--- Output variable in the html --->
+2. Dump value of a variable
+<cfdump var="#firstName1#">
+<br><br>
+
+3. Output variable in the html<br>
 <cfoutput>
-  Holla #firstname#.
+  Holla #firstName1#.
 </cfoutput>
-<br>
+<br><br>
 
+4. Some examples: <br>
+1 + 2 = <code><cfdump var = "1 + 2" /></code><br>
+#1 + 2# = <code><cfdump var = "#1 + 2#" /></code><br>
+1 + 2 IS #1 + 2# = <code><cfdump var = "1 + 2 IS #1 + 2#"/></code><br>
 
 <!--- Conditiontally define a variable if it don't exist --->
 <cfparam name="firstName" default="Ozzy">
@@ -16,9 +25,9 @@
 
 
 <!--- Check If a variable exists --->
-<cfif IsDefined("firstName")>
+<cfif IsDefined("firstName6")>
 	<cfoutput>
-	  Hello #firstName#.
+	  Hello #firstName6#.
 	</cfoutput>
 <cfelse>
   Hello stranger!

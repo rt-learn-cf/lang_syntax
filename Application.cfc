@@ -1,6 +1,6 @@
 <cfcomponent displayname="Application" output="true" hint="Handle the application.">
 
-    <cfif (!StructKeyExists(variables, "writeLine")) >
+    <cfif (!StructKeyExists(variables, "writeLn")) >
         <cfinclude template="common/CommonUtil.cfc">
     </cfif>
 
@@ -63,11 +63,14 @@
             <cfset OnSessionStart()>
         </cfif>
 
+        <!--- Home Link --->
+        <cfinclude template="common/header.cfm">
+
         <!--- Include the requested page. --->
         <cfinclude template="#ARGUMENTS.TargetPage#" />
 
         <!--- Home Link --->
-        <cfinclude template="common/footer.cfml">
+        <cfinclude template="common/footer.cfm">
 
         <!--- Return out. --->
         <cfreturn />

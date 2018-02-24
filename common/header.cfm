@@ -1,1 +1,1 @@
-HEADER
+<link rel="stylesheet" type="text/css" href="/lang_app/common/style.css">

@@ -1,0 +1,10 @@
+code {
+      background-color: #F1F1F1;
+      border: 1px solid #DDD;
+      border_radius: 5px;
+      color: black;
+      font_family: monaco, courier;
+      font_size: 13pt;
+      padding_left: 2px;
+      padding_right: 2px;
+}

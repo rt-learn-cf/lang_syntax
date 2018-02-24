@@ -1,16 +1,18 @@
 /**
  * 1. Component declaration
  */
-component displayName="HelloComponent" output="false" access="public" {
+component HelloComponent output="false" access="public" {
 
     /** 2. variable definition, declared to be used like a constant. */
     NEWLINE = CHR(10);
 
     /**
      * 3. Constructor
-     * @name to be used for database connection. ARG_HINT_MISSING,
+     * @name name of the person to greet.
      */
     public component function init(required string name ) {
+        writeLog("HelloComponent constructor called...")
+
         variables.name = arguments.name;
         return this;
     }
@@ -18,19 +20,19 @@ component displayName="HelloComponent" output="false" access="public" {
     /**
      * 4. public function with optional parameter
      *
-     * @verb is not missing a hint
+     * @verb is the greeting to be used.
      */
     public void function greet(string verb = "Hello") {
-        writeOutput("#verb# #name#!<br>");
-        writeOutput(holla());
+        writeLn("#verb# #name#!<br>");
     }
 
     /**
+     * NOTE: Global function is not available inside a component.
      * 5. private function
-     *
-     * holla is not missing a hint
+     @text the text to print.
      */
-    private void function holla() {
-        writeOutput("Ola!");
+    private void function writeLn(String text = "") {
+        writeOutput(text);
+        writeOutput("<br>");
     }
 }

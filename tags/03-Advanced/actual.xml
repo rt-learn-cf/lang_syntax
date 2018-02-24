@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <m:ReadBalanceResponse xmlns:m="http://www.optus.com.au/WSG/ec/">
+         <m:StatusReply>
+            <m:StatusFlag>Y</m:StatusFlag>
+            <m:StatusText>PPIN-OK</m:StatusText>
+         </m:StatusReply>
+         <m:MSN>0468735233</m:MSN>
+         <m:ExpirationDate>20180131T03:07:44Z</m:ExpirationDate>
+         <m:State>
+            <m:ID>3</m:ID>
+            <m:Name>Insufficient funds</m:Name>
+         </m:State>
+         <m:ServiceProvider>
+            <m:ID>610</m:ID>
+            <m:Name>amaysim prepaid</m:Name>
+         </m:ServiceProvider>
+         <m:RealBalance>
+            <m:Amount>0</m:Amount>
+            <m:CurrencyID>0</m:CurrencyID>
+            <m:CurrencyName>system currency</m:CurrencyName>
+         </m:RealBalance>
+         <m:BonusBalance>
+            <m:Amount>0</m:Amount>
+            <m:CurrencyID>0</m:CurrencyID>
+            <m:CurrencyName>system currency</m:CurrencyName>
+         </m:BonusBalance>
+         <m:DedicatedMoneyBalance>
+            <m:DedicatedMoney>
+               <m:ID>0</m:ID>
+               <m:Name>amaysim Money partition</m:Name>
+               <m:Amount>2.01</m:Amount>
+            </m:DedicatedMoney>
+            <m:DedicatedMoney>
+               <m:ID>9</m:ID>
+               <m:Name>Matrix Money Partition</m:Name>
+               <m:Amount>19.9</m:Amount>
+            </m:DedicatedMoney>
+         </m:DedicatedMoneyBalance>
+         <m:ResourceBalance>
+            <m:Resource>
+               <m:ID>1</m:ID>
+               <m:Name>Matrix Data</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>512000</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+               <m:PromotionalExpDate>20180112T03:07:44Z</m:PromotionalExpDate>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>2</m:ID>
+               <m:Name>Voice XL</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>3</m:ID>
+               <m:Name>SMS MMS XL</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>4</m:ID>
+               <m:Name>Data XL</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>5</m:ID>
+               <m:Name>Basic Data</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>6</m:ID>
+               <m:Name>Volume Data</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>7</m:ID>
+               <m:Name>On Brand 2000 SMS</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>2147483647</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>8</m:ID>
+               <m:Name>On Brand 2000 Minutes</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>2147483647</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>9</m:ID>
+               <m:Name>DataOverflow</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>10</m:ID>
+               <m:Name>Voice International Minutes TOP 32</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>11</m:ID>
+               <m:Name>Voice SVP</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>12</m:ID>
+               <m:Name>Voice International Minutes TOP 10</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+         </m:ResourceBalance>
+         <m:RealReserved>
+            <m:Amount>0</m:Amount>
+            <m:CurrencyID>0</m:CurrencyID>
+            <m:CurrencyName>system currency</m:CurrencyName>
+         </m:RealReserved>
+         <m:BonusReserved>
+            <m:Amount>0</m:Amount>
+            <m:CurrencyID>0</m:CurrencyID>
+            <m:CurrencyName>system currency</m:CurrencyName>
+         </m:BonusReserved>
+         <m:DedicatedMoneyReserved>
+            <m:DedicatedMoney>
+               <m:ID>0</m:ID>
+               <m:Name>amaysim Money partition</m:Name>
+               <m:Amount>0</m:Amount>
+            </m:DedicatedMoney>
+         </m:DedicatedMoneyReserved>
+         <m:ResourceReserved>
+            <m:Resource>
+               <m:ID>1</m:ID>
+               <m:Name>Matrix Data</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>2</m:ID>
+               <m:Name>Voice XL</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>3</m:ID>
+               <m:Name>SMS MMS XL</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>4</m:ID>
+               <m:Name>Data XL</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>5</m:ID>
+               <m:Name>Basic Data</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>6</m:ID>
+               <m:Name>Volume Data</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>7</m:ID>
+               <m:Name>On Brand 2000 SMS</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>8</m:ID>
+               <m:Name>On Brand 2000 Minutes</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>9</m:ID>
+               <m:Name>DataOverflow</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>10</m:ID>
+               <m:Name>Voice International Minutes TOP 32</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>11</m:ID>
+               <m:Name>Voice SVP</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+            <m:Resource>
+               <m:ID>12</m:ID>
+               <m:Name>Voice International Minutes TOP 10</m:Name>
+               <m:Peak>0</m:Peak>
+               <m:OffPeak>0</m:OffPeak>
+               <m:ServiceRate>0</m:ServiceRate>
+               <m:Promotional>0</m:Promotional>
+            </m:Resource>
+         </m:ResourceReserved>
+         <m:Product>
+            <m:ID>610005</m:ID>
+         </m:Product>
+      </m:ReadBalanceResponse>
+   </soap:Body>
+</soap:Envelope>

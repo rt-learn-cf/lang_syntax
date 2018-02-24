@@ -3,19 +3,20 @@
 // Global Functions
 
 /**
- * @hint Writes a an html hr element.
+ * Writes a an html hr element.
+ * @text an optional text to print after the hr tag.
  */
-void function writeHr() hint="lintfp" {
-    writeOutput("<hr>");
+void function writeHr(String text = "") hint="1. lintfp" {
+    writeOutput("<hr>#text#<br>");
 }
 
 /**
- * @hint Writes a message and moves the pointer to the next line.
+ * WET(1/2): Writes a message and moves the pointer to the next line.
+ *
  * @message the text to print.
  */
-void function writeLine(string message = "")  hint="lintfp" {
-    writeDump(message);
+public void function writeLn(string message = "") hint="2. lintfp" {
+    writeOutput(message);
     writeOutput("<br>");
 }
-
 </cfscript>
