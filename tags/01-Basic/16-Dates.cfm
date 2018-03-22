@@ -18,3 +18,23 @@
     <li>#DateFormat(todayDate, "full")#
 </ul>
 </cfoutput>
+
+
+<cfset todayDateTime = Now()>
+<body>
+<h3>DateTimeFormat Example</h3>
+<p>Today's date and time are <cfoutput>#todayDateTime#</cfoutput>.
+<p>Using DateTimeFormat, we can display that date and time in different ways:
+<cfoutput>
+<ul>
+    <li>#DateTimeFormat(todayDateTime)#
+    <li>#DateTimeFormat(todayDateTime, "yyyy.MM.dd G 'at' HH:nn:ss z")#
+    <li>#DateTimeFormat(todayDateTime, "EEE, MMM d, ''yy")#
+    <li>#DateTimeFormat(todayDateTime, "h:nn a")#
+    <li>#DateTimeFormat(todayDateTime, "hh 'o''clock' a, zzzz")#
+    <li>#DateTimeFormat(todayDateTime, "K:nn a, z")#
+    <li>#DateTimeFormat(todayDateTime, "yyyyy.MMMMM.dd GGG hh:nn aaa")#
+    <li>#DateTimeFormat(todayDateTime, "EEE, d MMM yyyy HH:nn:ss Z")#
+    <li>#DateTimeFormat(todayDateTime, "yyMMddHHnnssZ", "GMT")#
+</ul>
+</cfoutput>

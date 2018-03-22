@@ -15,7 +15,7 @@ component {
      * @message the error message to attach to a field.
      * @field the field name to which to attach the error method to.
      */
-    public void function addError(required string message, required string field) {
+    void function addError(required string message, required string field) {
         arrayAppend(
             variables.errors,
             {
@@ -28,7 +28,7 @@ component {
     /**
      * Returns the array of the errors.
      */
-    public Array function getErrors() {
+    Array function getErrors() {
         return variables.errors;
     }
 

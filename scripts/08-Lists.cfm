@@ -16,7 +16,6 @@
     list3c = "one";
     writeLn(listAppend(list3a, list3b, list3c));
 
-
-
+    list4 = "3900,4000,4050";
 </cfscript>
 
