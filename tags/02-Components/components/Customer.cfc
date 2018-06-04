@@ -1,24 +1,28 @@
 <cfcomponent displayname="Customer" hint="ColdFusion Component for Customers" accessors="true">
 
-<cfproperty name="name" type="String" default="Property" />
+    <cfproperty name="name" type="String" default="Property" />
 
-<cffunction name="init" output="false" returntype="Customer" hint="This serves as a constructor.">
-	<cfargument name="name" type="string" default="Guest" hint="Initialize with the name of the customer.">
-    <cfset this.name |= arguments.name />
+    <cfset variables.outside = 1234>
 
-	<cfoutput>Class initialization (#this.name#)<br></cfoutput>
-    <cfreturn this />
-</cffunction>
+    <cffunction name="init" output="false" returntype="Customer" hint="This serves as a constructor.">
+        <cfargument name="name" type="string" default="Guest" hint="Initialize with the name of the customer.">
+        <cfset this.name |= arguments.name />
 
-<cffunction name="getName"
-  hint="Returns the customer name"
-  returntype="String" output="false">
+        <cfoutput>Class initialization (#this.name#)<br></cfoutput>
+        <cfreturn this />
+    </cffunction>
 
-  <cfif !isDefined("this.name")>
-    <cfset this.name = "undefined">
-  </cfif>
+    <cffunction name="getName"
+        hint="Returns the customer name"
+        returntype="String" output="false">
 
-  <cfreturn this.name />
+        <cfif !isDefined("this.name")>
+            <cfset this.name = "undefined">
+        </cfif>
 
-  </cffunction>
+        <cfreturn this.name />
+
+    </cffunction>
+
+    <cfdump var="#variables.outside#">
 </cfcomponent>

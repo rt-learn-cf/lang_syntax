@@ -7,11 +7,32 @@
     //     writeLn("Empty struct resolves to false");
     // }
 
-    trueVal = '1' == 1;
+    trueVal = ('1' == 1);
     writeLn(trueVal);
     writeLn("[#trueVal#]" == "[true]");
 
-    writeLn("Comparing 'true' and 'YES': #(true == trueVal)#");
+    // writeLn("Comparing 'true' and 'YES': #(true == trueVal)#");
+
+    writeLn("Start if numeric tests");
+    if (-1) {
+        writeLn(-1);
+    }
+
+    if (0) {
+        writeLn(0);
+    }
+
+    if (1) {
+        writeLn(1);
+    }
+    writeLn("end if numeric tests");
+
+    // writeLn(" #(true == trueVal)#");
+
+
+    // writeLn("Comparing 'true' and 'YES': #(true == trueVal)#");
+
+
 
 
 </cfscript>

@@ -21,11 +21,29 @@
     string4 = "You and Me";
     writeLn();
 
-    writeHr("5. Lowercase");
-    string5 = "You and Me";
-    writeLn(LCase(string5));
+    writeHr("5. Trim");
+    string5 = " You and Me   ";
+    writeLn("[#trim(string5)#]");
 
-
+    writeHr("6. Convert to number");
+    string6a = " You and Me";
+    try {
+        writeLn("[#lsParseNumber(string6a)#]");
+    } catch (Expression e) {
+        writeLn("Unable to parse: [#string6a#]");
+    }
+    string6b = "101 dalmatians";
+    try {
+        writeLn("[#lsParseNumber(string6b)#]");
+    } catch (Expression e) {
+        writeLn("Unable to parse: [#string6b#]");
+    }
+    string6c = "42";
+    try {
+        writeLn("[#lsParseNumber(string6c)#]");
+    } catch (Expression e) {
+        writeLn("Unable to parse: [#string6c#]");
+    }
 
 //    writeLn("Character at position");
 //    writeLn("Hello"[1]);
