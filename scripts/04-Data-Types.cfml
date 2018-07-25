@@ -35,4 +35,6 @@
     writeLn("2.3. Is ""0"" Numeric? #IsNumeric(ZERO_STRING)#");
     writeLn("2.4. Len(45) Is? #Len(45)#"); // 2
     writeLn("2.5. Val('0') == 0 #IsNumeric(val('0'))#");
+
+
 </cfscript>

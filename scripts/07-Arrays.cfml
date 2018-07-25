@@ -40,8 +40,6 @@
     writeDump(array4);
 
 
-
-
     writeHr("4. Initialize an array from a comma separated string by uing the function listToArray(string)");
     arrayString = ListToArray('A,B,C,D');
     writeDump(arrayString);
@@ -52,5 +50,11 @@
     for (i = 1;i <= arrayLen(arrayString);i++) {
         writeLn(arrayString[i]);
     }
+
+    writeHr("6. Join array into string");
+    array6 = [1, 2, 3];
+    writeLn("[#arrayToList(array6, ' ')#]");
+
+
 
 </cfscript>

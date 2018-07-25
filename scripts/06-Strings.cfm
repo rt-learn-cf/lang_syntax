@@ -1,7 +1,9 @@
 <cfscript>
     writeLn("Replace String Examples");
-    writeLn("1. Replace all occurrence");
+    writeLn("1. Replace single occurrence");
     writeLn("<code>replace('apple', 'P', 'd')</code> = #replace('apple', 'p', 'd')#");
+    writeLn("1.a Replace all occurrence");
+    writeLn("<code>replace('apple', 'P', 'd')</code> = #replace('apple', 'p', 'd', 'ALL')#");
     // Replace is case sensitive!
 
     writeLn("String Concatenation");
@@ -45,6 +47,15 @@
         writeLn("Unable to parse: [#string6c#]");
     }
 
-//    writeLn("Character at position");
-//    writeLn("Hello"[1]);
+    // writeHr("7. Parse XML");
+    // string7 = '<!--[if gte mso 9]><m:brkBinSub m:val="--"/><![endif]-->';
+    // writeLn("[#string7#]");
+    // writeLn("[#encodeForXML(string7)#]");
+    // string7a  = replace(string7, '-', '&##45;', 'ALL');
+    // writeLn("7a [#encodeForXML(string7a)#]");
+    // writeLn("[#xmlParse(string7)#]");
+
+    writeHr("8. Java");
+    string8 = "Java";
+    writeLn(string8.getClass().getName());
 </cfscript>
