@@ -6,7 +6,7 @@ component
     extends="lang_app.scripts.components.Shape" {
 
     /**
-     * Implicit constructor.  This will be invoked automatirally if you use
+     * Implicit constructor.  This will be invoked automatically if you use
      * the new keyword.
      *
      * @length the length of the side of this square.

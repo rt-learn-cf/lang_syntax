@@ -51,5 +51,6 @@ guard 'livereload' do
   watch(%r{scripts/.*})
   watch(%r{common/.*})
   watch(%r{tags/.*})
+  watch(%r{practical/.*})
   watch(/index\.html/)
 end

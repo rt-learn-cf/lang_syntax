@@ -5,7 +5,7 @@ component displayName="Shape" output="false" access="public" {
 
 
     /**
-     * 3. Implicit constructor.  This will be invoked automatirally if you use
+     * 3. Implicit constructor.  This will be invoked automatically if you use
      * the new keyword.
      *
      * @name the name of this shape.

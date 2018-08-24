@@ -58,4 +58,10 @@
     writeHr("8. Java");
     string8 = "Java";
     writeLn(string8.getClass().getName());
+
+    writeHr("9. To Number");
+    string9 = "01234";
+    writeLn(val(string9)); // #> 1234
+    writeLn(val(""));   // #> 0
+    writeLn(val("YP")); // #> 0
 </cfscript>

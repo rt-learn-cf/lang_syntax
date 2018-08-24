@@ -1,7 +1,7 @@
 <cfscript>
 
     // 1. Instantiating and invoking a method.
-    new lang_app.scripts.components.HelloComponent("Royce").greet();
+    new lang_app.components.HelloComponent("Royce").greet();
 
     // 2. Instantiating a parent component.
     new lang_app.scripts.components.Shape("irregular").draw();

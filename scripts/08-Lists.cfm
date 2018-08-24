@@ -17,5 +17,7 @@
     writeLn(listAppend(list3a, list3b, list3c));
 
     list4 = "3900,4000,4050";
+    writeHr("4. Get item at index");
+    writeLn(listGetAt(list4, 2));
 </cfscript>
 
