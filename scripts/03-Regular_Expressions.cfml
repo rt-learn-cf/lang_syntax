@@ -33,6 +33,4 @@
     data7 = '<!-- "" ---></TD></TD></TD></TH></TH></TH></TR></TR></TR></TABLE></TABLE></TABLE></A></ABBREV></ACRONYM></ADDRESS></APPLET></AU></B></BANNER></BIG></BLINK></BLOCKQUOTE></BQ></CAPTION></CENTER>';
     writeLog("7. Comments replace: #reReplace(data7, '<!-- "" --->', '', 'all')#");
 
-
-
 </cfscript>

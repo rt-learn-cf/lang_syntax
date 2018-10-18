@@ -55,7 +55,7 @@
     <cffunction name="OnRequest" access="public" returntype="void" output="true" hint="Fires after pre page processing is complete.">
 
         <!--- Define arguments. --->
-        <cfargument name="TargetPage" type="string" required="true" />
+        <cfargument name="TargetPage" type="string" required="true" /><cfsilent>
 
         <!--- reload the application if reload is defined in url --->
         <cfif isDefined("url.reload") and url.reload>
@@ -63,17 +63,19 @@
             <cfset OnSessionStart()>
         </cfif>
 
+        <cfset displayHeaderFooter = reFind('xml_output', arguments.TargetPage) LTE 0>
+
         <!--- Home Link --->
-        <cfinclude template="common/header.cfm">
+        </cfsilent><cfif displayHeaderFooter><cfinclude template="common/header.cfm"></cfif><cfsilent>
 
         <!--- Include the requested page. --->
-        <cfinclude template="#ARGUMENTS.TargetPage#" />
+        </cfsilent><cfinclude template="#arguments.TargetPage#" /><cfsilent>
 
         <!--- Home Link --->
-        <cfinclude template="common/footer.cfm">
+        </cfsilent><cfif displayHeaderFooter><cfinclude template="common/footer.cfm"></cfif><cfsilent>
 
         <!--- Return out. --->
-        <cfreturn />
+        </cfsilent><cfreturn />
     </cffunction>
 
 

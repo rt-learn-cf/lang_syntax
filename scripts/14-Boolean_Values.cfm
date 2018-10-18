@@ -32,7 +32,19 @@
 
     // writeLn("Comparing 'true' and 'YES': #(true == trueVal)#");
 
+    writeHr();
+    writeLn(test1());
+    writeLn(test2());
+
+    writeLn(test2() == test1());
 
 
+    Boolean function test1() {
+        return true;
+    }
+
+    Boolean function test2() {
+        return 1 == 1;
+    }
 
 </cfscript>

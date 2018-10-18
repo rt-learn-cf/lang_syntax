@@ -4,8 +4,6 @@
     logger.info('test');
     logger.debug('test');
 
-    object = new lang_app.practical.ComponentWithLogging();
-    object.hello();
-
-
+    sampThatLogs = new lang_app.practical.ComponentWithLogging();
+    sampThatLogs.hello();
 </cfscript>

@@ -21,5 +21,8 @@ component extends="mxunit.framework.TestCase" {
      * @hint Public functions are run.
      */
     void function test() {
+        debug(1 == 1);
+        debug(true);
+        assertEquals(1 == 1, true);
     }
 }

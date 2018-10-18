@@ -14,6 +14,10 @@ log4cf:
   # Will log or not. defaults to no
   enabled: yes
 
+  # use dump instead of writeLog for more concise logging, but without
+  # file logging.
+  use_dump: yes
+
   categories:
     lang_app.practical.logging_off: OFF
     lang_app.practical.logging_on.LoggingSample1: INFO
