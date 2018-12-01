@@ -3,7 +3,12 @@
 This project aims to serve as a playground to try different construct, features and functions of the coldfusion language.
 
 
-## Setup 
+## Running with Docker
+
+`docker run -d -p 8500:80 -v /Users/royce/github/rt-learn-lang/coldfusion:/var/www/lang_app roycetech/coldfusion10_dev:0.01`
+
+
+## Setup(Alternative)
 
 [Install Coldfusion Developer edition](http://www.adobe.com/sea/products/coldfusion-family.html) Select options that lean towards local development.
 
@@ -32,10 +37,15 @@ $ ./coldfusion stop
 ```
 
 
+
+
+
+
+
 ## Setting Up Live Reload
 
-1. Install chrome browser extension  
-2. Enable a compatible ruby runtime  
+1. Install chrome browser extension
+2. Enable a compatible ruby runtime
 3. Install the required gem `$ gem install guard-livereload`
 4. Initialize the live reload configuration  by running: `$ guard init livereload`
 5. Update the `Guardfile` file manually to watch all the coldfusion files that will trigger the reload.
