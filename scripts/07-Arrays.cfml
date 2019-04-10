@@ -55,6 +55,10 @@
     array6 = [1, 2, 3];
     writeLn("[#arrayToList(array6, ' ')#]");
 
+    writeHr("7. Array Functions: ArrayLen");
+    struct7 = {};
+    writeLn("[#arrayLen(struct7.missing)#]");
+
 
 
 </cfscript>

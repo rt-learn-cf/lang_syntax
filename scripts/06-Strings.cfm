@@ -7,7 +7,7 @@
     // Replace is case sensitive!
 
     writeLn("String Concatenation");
-    writeLn("Hello" & "World");
+    writeLn("Hello" & "World");  // #> HelloWorld
 
     writeOutput("<hr>");
 
