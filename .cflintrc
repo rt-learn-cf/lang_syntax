@@ -1,0 +1,6 @@
+{
+    "excludes" : [
+        { "code" : "STRUCT_ARRAY_NOTATION" },
+        { "code" : "GLOBAL_VAR" }
+    ]
+}

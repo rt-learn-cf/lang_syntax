@@ -15,11 +15,13 @@
 <cfoutput>#faq[1]#</cfoutput><br>
 <cfoutput>#faq[2]#</cfoutput><br>
 <cfoutput>#faq[3]#</cfoutput><br><br>
-<cfoutput>#faq[4]#</cfoutput><br><br>
+<!--- <cfoutput>#faq[4]#</cfoutput><br><br> --->
 
 <cfdump var="#faq#">
 
 <!--- Modifying the Contents of an Array --->
+
+
 
 <!--- To add an item to the end of an array, use the ArrayAppend() function: --->
 Append to array by <code>ArrayAppend(faq, "How to modify an array?")</code>
@@ -28,8 +30,16 @@ Append to array by <code>ArrayAppend(faq, "How to modify an array?")</code>
 
 
 
-<!--- To add an item to the beginning of the array, use the ArrayPrepend() function: --->
+To add an item to the beginning of the array, use the ArrayPrepend() function:
 <cfset ArrayPrepend(faq, "How to modify an array?")>
 
 <!--- To insert an item in a specific position in the array, use the ArrayInsertAt() function (in this case, the new value is added before position 3): --->
 <cfset ArrayInsertAt(faq, 3, "How to modify an array?")>
+
+
+<hr>
+<h3>Functions</h3>
+<ol>
+    <li><cfoutput>ArrayLen([]): #arrayLen([])#</cfoutput><br/></li>
+    <li><cfoutput>IsArray(''): #isArray('')#</cfoutput><br/></li>
+</ol>

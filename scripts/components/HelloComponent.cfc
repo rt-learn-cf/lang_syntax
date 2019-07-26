@@ -1,5 +1,7 @@
 /**
   * 1. Component declaration
+  *
+  * @CFLintIgnore UNQUOTED_STRUCT_KEY,UNQUOTED_STRUCT_KEY
   */
 component displayName="HelloComponent" output="false" access="public" {
 
@@ -31,6 +33,6 @@ component displayName="HelloComponent" output="false" access="public" {
       * holla is not missing a hint
       */
     private void function holla() {
-        writeOutput("Ola!");
+        writeOutput("Ola!<br/>");
     }
 }
