@@ -3,7 +3,7 @@
   *
   * @CFLintIgnore UNQUOTED_STRUCT_KEY,UNQUOTED_STRUCT_KEY
   */
-component displayName="HelloComponent" output="false" access="public" {
+component HelloComponent implements="GreeterInterface" output="false" access="public" {
 
     /** 2. variable definition, declared to be used like a constant. */
     NEWLINE = CHR(10);
@@ -28,11 +28,31 @@ component displayName="HelloComponent" output="false" access="public" {
     }
 
     /**
-      * 5. private function
+      * 6. private function
       *
       * holla is not missing a hint
       */
     private void function holla() {
         writeOutput("Ola!<br/>");
     }
+
+    /**
+      * 5. Interface function is required to be implemented
+      *
+      * @message feedback message
+      */
+
+      /**
+       * [greet description]
+       * @message {[type]} required String message [description]
+       * @return {[type]}          [description]
+       */
+    public String function feedback(required String message) {
+        writeOutput("#arguments.message#!<br>");
+        writeOutput(holla());
+        return arguments.message;
+    }
+
+
+
 }
