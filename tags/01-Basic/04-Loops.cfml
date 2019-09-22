@@ -1,32 +1,34 @@
-<!--- Index Loop --->
+<!--- 1. Index Loop --->
+<!--- @CFLintIgnore VAR_TOO_SHORT,FUNCTION_TOO_COMPLEX --->
 <cfloop from="1" to="5" index="i">
   <cfoutput>
   #i#<br />
   </cfoutput>
 </cfloop>
 
-<!--- The (optional) step attribute allows you to determine how big the increments will be. --->
+<!--- 1a. The (optional) step attribute allows you to determine how big the increments will be. --->
+<!--- @CFLintIgnore VAR_TOO_SHORT --->
 <cfloop from="1" to="10" index="i" step="2">
   <cfoutput>
   #i#<br />
   </cfoutput>
 </cfloop>
 
-<!--- The Conditional Loop --->
-<cfset myVar=false>
-<cfloop condition="myVar eq false">
+<!--- 2. The Conditional Loop --->
+<cfset doLoop2=false>
+<cfloop condition="doLoop2 eq false">
   <cfoutput>
-  myVar = #myVar#  (still in loop)<br />
+  doLoop2 = #doLoop2#  (still in loop)<br />
  </cfoutput>
   <cfif RandRange(1,10) eq 10>
-    <cfset myVar="true">
+    <cfset doLoop2="true">
   </cfif>
 </cfloop>
 <cfoutput>
-myVar = #myVar# (loop has finished)
+  doLoop2 = #doLoop2# (loop has finished)
 </cfoutput>
 
-<!--- The Query Loop --->
+<!--- 3. The Query Loop --->
 <cfquery name="getMovies" datasource="Entertainment">
   select top 4 movieName
   from Movies
