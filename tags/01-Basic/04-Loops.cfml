@@ -38,26 +38,26 @@
 </cfloop>
 
 <!--- The List Loop --->
-<cfloop list="ColdFusion,HTML;XML" index="ListItem" delimiters=",;">
+<cfloop list="ColdFusion,HTML;XML" index="listItem" delimiters=",;">
   <cfoutput>
-   #ListItem#<br />
+   #listItem#<br />
  </cfoutput>
 </cfloop>
 
 <!--- The File Loop --->
-<cfloop list="#myFile#" index="FileItem" delimiters="#chr(10)##chr(13)#">
+<cfloop list="#csvReport#" index="csvItem" delimiters="#chr(10)##chr(13)#">
   <cfoutput>
-   #FileItem#<br />
+   #csvItem#<br />
  </cfoutput>
 </cfloop>
 
 <!--- COM Collection/Structure Loops --->
-<cfset myBooks = StructNew()>
-<cfset myVariable = StructInsert(myBooks,"ColdFusion","ColdFusion MX Bible")>
-<cfset myVariable = StructInsert(myBooks,"HTML","HTML Visual QuickStart")>
-<cfset myVariable = StructInsert(myBooks,"XML","Inside XML")>
-<cfloop collection="#myBooks#" item="subject">
+<cfset bookRecord = {}>
+<cfset newBookRecord = StructInsert(bookRecord,"ColdFusion","ColdFusion MX Bible")>
+<cfset newBookRecord = StructInsert(bookRecord,"HTML","HTML Visual QuickStart")>
+<cfset newBookRecord = StructInsert(bookRecord,"XML","Inside XML")>
+<cfloop collection="#bookRecord#" item="subject">
   <cfoutput>
- #subject#: #StructFind(myBooks,subject)#<br />
- </cfoutput>
+    #subject#: #StructFind(bookRecord, subject)#<br />
+  </cfoutput>
 </cfloop>

@@ -1,6 +1,8 @@
 {
     "excludes" : [
         { "code" : "STRUCT_ARRAY_NOTATION" },
-        { "code" : "GLOBAL_VAR" }
+        { "code" : "GLOBAL_VAR" },
+        { "code" : "VAR_IS_TEMPORARY" },
+        { "code" : "VAR_TOO_SHORT" }
     ]
 }
