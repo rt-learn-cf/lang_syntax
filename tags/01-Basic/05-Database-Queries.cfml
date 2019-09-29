@@ -1,8 +1,10 @@
 <!--- Basic CFQUERY Example --->
-<cfquery datasource="Entertainment">
+<cfquery datasource="crm" result="customers">
   select *
-  from Movies
+  from customers
 </cfquery>
+
+<cfdump var="#customers#" abort="true">
 
 <!--- Authentication --->
 <cfquery datasource="Entertainment" username="webuser" password="letmein">
