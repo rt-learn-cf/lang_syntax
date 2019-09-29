@@ -1,3 +1,4 @@
+<!--- @CFLintIgnore  --->
 <cfscript>
 map1 = {
     SR_REP: 25,
@@ -7,6 +8,4 @@ map1 = {
 
 writeLine('1. Initialize a Struct')
 writeLine(serializeJSON(map1));
-
-
 </cfscript>
