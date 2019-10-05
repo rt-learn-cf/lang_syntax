@@ -43,7 +43,7 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="containerx">
 
       <cfinclude template="includes/uploadProducts.cfml">
 
@@ -52,7 +52,10 @@
 
       <div class="accordion" id="accordionExample">
 
-        <cfinclude template="includes/input.cfml">
+        <cfif isDefined('session.baseId')>
+          <cfinclude template="includes/input.cfml">
+        </cfif>
+
         <cfinclude template="includes/new_product_plans.cfml">
 
         <div class="card">
@@ -74,6 +77,7 @@
         </div>
 
         <cfinclude template="includes/matrix.cfml">
+        <cfinclude template="includes/matrix_new_products.cfml">
 
         <div class="card">
           <div class="card-header" id="heading3">

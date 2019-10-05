@@ -624,6 +624,72 @@ component ProductService accessors="true" {
         return output;
     }
 
+    /**
+     * [generateNewProductsTransitions description]
+     * @return {[type]} [description]
+     */
+    String function generateNewProductsTransitions() {
+        var output = "
+        INSERT INTO `owi_productplans_matrix` (`fkproductplanid_current`, `fkproductplanid_current_data`
+            , `fkproductplanid_new` , `can_purchase`, `data_threshold`, `purchase_type`, `migration_time`
+            , `description`, `dtInserted`, `fkfeatures_name_active`)
+        VALUES";
+
+        var gfCriteria = new ProductsGrandfathered();
+        var gfProducts = getProductRepo().get(gfCriteria);
+
+        var firstRun = true;
+
+        for (var product in gfProducts) {
+            for (var i=1;i<=arrayLen(variables.productLines);i++) {
+                var productLine = variables.productLines[i];
+                var newProduct = listToArray(productLine);
+
+                var sizeGb = newProduct[this.IDX.SIZEGB];
+                var sizeBytes = sizeGb * this.oneGb;
+                var productId = variables.baseId + sizeGb;
+                var activeOn = newProduct[this.IDX.ACTIVE];
+                var price = val(mid(newProduct[this.IDX.PRICE], 2, len(newProduct[this.IDX.PRICE]) - 1));
+
+                var isUpgrade = sizeBytes > product.partition_incl;
+                var purchaseType = 'upgrade';
+                var migrationTime = 'immediate';
+
+                if (!isUpgrade) {
+                    purchaseType = 'downgrade';
+                    migrationTime = 'scheduled';
+                }
+
+                // Check for good deals.
+                var samePrice = product.amount == price;
+                var lowerPrice = product.amount > price;
+
+                var greaterInclusion = product.partition_incl < sizeBytes;
+                var sameInclusion = product.partition_incl == sizeBytes;
+                var lowerInclusion = product.partition_incl > sizeBytes;
+
+                if (greaterInclusion || lowerPrice && sameInclusion || lowerPrice && lowerInclusion) {
+                    if (!firstRun) {
+                        output &= ',';
+                    }
+
+                    output &= "
+                (#product.productId#, 0, #productId#, 'yes', 0.00, '#purchaseType#', '#migrationTime#', 'The purchase is allowed', NOW(), '#activeOn#')";
+                } else {
+                    output &= "
+                        -- Skip #productId# to #product.productId# Price #price# to #product.amount#, Size #sizeBytes# to #product.partition_incl#";
+
+                }
+
+                // output &= "
+                //     -- #product.productId# to #productId# Price #product.amount# to #price#, Size  #product.partition_incl# to #sizeBytes#";
+
+                firstRun = false;
+            }
+        }
+        output &= ';';
+        return output;
+    }
 
     /**
      * [queryEnabledProducts description]
