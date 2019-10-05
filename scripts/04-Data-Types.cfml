@@ -1,3 +1,4 @@
+<!--- @CFLintIgnore VAR_IS_TEMPORARY --->
 <cfscript>
     EMPTY_STRING = "";
     ZERO_STRING = "0";
@@ -36,10 +37,16 @@
     writeLine("2.4. Len(45) Is? #Len(45)#"); // 2
 
 
-
-    private function writeLine(string message = "") {
-        writeDump(message);
+    /**
+     * Write a text as html text.
+     *
+     * @text the text to write as html text.
+     * @return {[type]}        [description]
+     *
+     * @CFLintIgnore AVOID_USING_WRITEDUMP
+     */
+    private Void function writeLine(String text = "") {
+        writeDump(text);
         writeOutput("<br>");
     }
-
 </cfscript>
