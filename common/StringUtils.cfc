@@ -23,7 +23,7 @@ component StringUtils {
         var output = "";
         for (var i=1;i<=len(arguments.string);i++) {
             output &= mid(arguments.string, i, 1);
-            if (i % arguments.pos == 0) {
+            if (i % arguments.pos == 0 && i != len(arguments.string)) {
                 output &= sep;
             }
         }

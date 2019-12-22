@@ -9,6 +9,12 @@ component HelloComponent implements="GreeterInterface" output="false" access="pu
     NEWLINE = CHR(10);
 
     /**
+     * 7. Property
+     */
+    property name="myname" type=String;
+
+
+    /**
       * 3. Constructor
       * @name to be used for database connection. ARG_HINT_MISSING,
       */

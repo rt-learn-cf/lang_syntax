@@ -3,9 +3,18 @@ Creating Lists in ColdFusion
 <!--- This is easy. You can create a list in ColdFusion just the same you would create any other variable. Just remember to throw in a delimiter:
  --->
 
-
-
 <cfset coldfusion_list = "ColdFusion Lists,ColdFusion Arrays,ColdFusion Structures">
+
+
+<hr>
+<cfscript>
+    writeOutput(listFind(coldfusion_list, "ColdFusion"));
+</cfscript>
+<hr>
+
+
+
+
 
 <!--- Find out the list length --->
 listLen(coldfusion_list)
@@ -15,7 +24,6 @@ listLen(coldfusion_list)
     <cfoutput>#i#</cfoutput>
 </cfloop>
 
-<
 
 <!--- Add items to the list --->
 <!--- Add an item to the end of the list. The following adds ColdFusion Functions to the end of the list:
